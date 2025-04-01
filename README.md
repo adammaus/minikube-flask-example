@@ -32,7 +32,7 @@ minikube service hello-foo-deployment
 
 ## Troubleshooting
 ### When running with Docker, site isn't available
-Check that you haven't set hte envrionment variables for Minikube.
+Check that you haven't set the environment variables for Minikube. If you have, open a new terminal.
 
 ### Cleaning up Kubernetes
 kubectl delete deployments --all;
