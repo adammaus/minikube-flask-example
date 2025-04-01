@@ -35,6 +35,6 @@ minikube service hello-foo-deployment
 Check that you haven't set hte envrionment variables for Minikube.
 
 ### Cleaning up Kubernetes
-kubectl delete deployments --all
-kubectl delete services --all
-kubectl delete pods --all
+kubectl delete deployments --all;
+kubectl delete services --all;
+kubectl delete pods --all;
