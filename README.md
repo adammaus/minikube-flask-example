@@ -28,7 +28,7 @@ $ kubectl expose deployment hello-foo-deployment --type=LoadBalancer --port=80 -
 $ kubectl get pods; kubectl get deployments; kubectl get svc
 
 #### 6. Open deployment in browser
-minikube service hello-foo-deployment
+$ minikube service hello-foo-deployment
 
 ## Troubleshooting
 ### When running with Docker, site isn't available
